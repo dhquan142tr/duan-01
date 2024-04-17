@@ -4,6 +4,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -46,6 +47,7 @@ a {
 /* Header */
 
 .header {
+    padding-top: 26px;
     position: relative;
     background: #e6f0ff;
     height: 736px;
@@ -54,7 +56,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -62,11 +64,15 @@ a {
     margin-left: 50px;
 }
 
-.navbar ul li {
+.navbar ul li a {
     padding: 0 14px;
     color: #4f5361;
     font-size: 1.4rem;
     font-weight: 500;
+}
+
+.navbar ul a:hover {
+    text-decoration: underline;
 }
 .navbar .action {
     margin-left: auto;
@@ -89,7 +95,7 @@ a {
 }
 
 .hero {
-    margin-top: 14rem;
+    margin-top: 140px;
 }
 .hero .info {
     width: 51%;
@@ -475,10 +481,10 @@ a {
 
 .footer .row {
     display: flex;
+    column-gap: 185px;
 }
-.footer .row-top {
-    gap: 185px;
-}
+/* .footer .row-top {
+} */
 
 .footer .colum .heading {
     color: #1c1c1d;
@@ -492,7 +498,7 @@ a {
 }
 
 .footer .item {
-    display: inline-block;
+    display: block;
     margin-top: 18px;
 }
 

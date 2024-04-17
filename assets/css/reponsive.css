@@ -1,0 +1,166 @@
+/* PC */
+@media (min-width: 992px) {
+    .navbar__menu {
+        display: none;
+    }
+}
+
+/* Tablet & Mobie */
+@media (max-width: 991.98px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar .logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .navbar__menu {
+        display: block;
+        width: 24px;
+    }
+
+    .hero .house-img {
+        display: none;
+    }
+
+    .hero .info {
+        width: 100%;
+    }
+
+    .client-logo {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .guide-item {
+        margin: 0 50px;
+    }
+
+    .featured-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stats .stats-content {
+        flex-direction: column;
+    }
+
+    .stats-content .stat-image {
+        width: 100%;
+    }
+
+    .stats-content .stat-image img {
+        margin: 0 auto;
+    }
+
+    .stats-content .info {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .stats-content .sub-title {
+        width: 80%;
+    }
+
+    .stats-content .desc {
+        width: 100%;
+    }
+
+    .stat-qty p {
+        font-size: 5.2rem;
+    }
+
+    .subscription .body .image {
+        display: none;
+    }
+
+    .footer .row-top {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        row-gap: 120px;
+    }
+
+    .footer .colum .desc {
+        line-height: 35px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Mobie */
+@media (max-width: 767.98px) {
+    .navbar .action {
+        display: none;
+    }
+
+    .hero .title {
+        font-size: 5rem;
+    }
+
+    .hero {
+        margin-top: 80px;
+    }
+
+    .clients-of-mobie {
+        display: none;
+    }
+
+    .list-guide {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .featured-body {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-content .stat-image img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .stat-qty span {
+        font-size: 1.2rem;
+    }
+
+    .stat-qty p {
+        font-size: 3.5rem;
+    }
+
+    .footer .row-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer .copy-right {
+        margin-top: 20px;
+    }
+
+    .featured .arrow span {
+        font-size: 1.2rem;
+    }
+
+    .featured__link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .row {
+        column-gap: 76px;
+    }
+
+    .subscription .info {
+        margin: 30px 30px;
+    }
+}
